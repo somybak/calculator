@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //이 과정을 통해 내가 원하는 컴포넌트를 여기로 끌어올 수 있음
                 break;
             case R.id.Calculator:
-                intent = new Intent(this, WidgetActivity.class);
+              intent = new Intent(this, CalculatorActivity.class);
                 startActivity(intent);
                 break;
 
